@@ -1,0 +1,13 @@
+header div p {
+  font-weight: 200;
+  font-size: 2.5em;
+}
+
+#home {
+  background: black;
+  color: white;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,28 @@
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  padding: 10px;
+}
+
+nav ul li {
+  margin: 0px 20px;
+}
+
+.nav-text {
+  font-size: 3em;
+  font-weight: 700;
+  color: #f05136;
+}
+
+.nav-icons {
+  color: black;
+  font-size: 1.8em;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.nav-icons:hover {
+  color: #f05136;
+}

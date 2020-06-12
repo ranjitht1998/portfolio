@@ -1,0 +1,43 @@
+hr {
+  width: 400px;
+}
+
+#portfolio {
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+}
+
+#portfolio div {
+  display: flex;
+  justify-content: space-around;
+  margin: 10px 0px;
+  width: 100%;
+}
+
+#portfolio h3,
+p,
+hr {
+  margin-bottom: 20px;
+}
+
+#portfolio div article {
+  background: white;
+  color: black;
+  height: 200px;
+  width: 225px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  border-radius: 10px;
+}
+
+#portfolio div article p {
+  padding: 0px 5px;
+  font-weight: 700;
+}
